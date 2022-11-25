@@ -4,9 +4,9 @@ print(a)
 #2) Imprimir el tipo de dato de la constante 8.5
 type(8.5)
 #3) Imprimir el tipo de dato de la variable creada en el punto 1
-
+type(a)
 #4) Crear una variable que contenga tu nombre
-
+name='Andres Felipe'
 #5) Crear una variable que contenga un número complejo
 
 #6) Mostrar el tipo de dato de la variable crada en el punto 5
