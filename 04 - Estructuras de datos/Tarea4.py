@@ -33,7 +33,7 @@ print(A.index('colombia'))
 #si hay mas...
 
 #11)¿Qué pasa si se busca un elemento que no existe?
-#print(A.index('Error'))
+print(A.index('Error'))
 #Va a mostrar eror, ya que la palabra no esta en la lista
 
 #12)Eliminar un elemento de la lista
@@ -41,8 +41,8 @@ A.remove("colombia")
 print(A)
 
 #13)¿Qué pasa si el elemento a eliminar no existe?
-#A.remove("italia")
-#print(A)
+A.remove("italia")
+print(A)
 #Va a  mostrar error ya que no va a eliminar lo que 
 # no existe
 
