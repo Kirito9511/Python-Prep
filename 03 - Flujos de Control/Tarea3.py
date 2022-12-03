@@ -48,3 +48,37 @@ while(N<30):
     for i in range(1,N):
         print(N)
         print(i)
+
+#8) Crear un ciclo while dentro de un ciclo for
+#9) Imprimir los números primos existentes entre 0 y 30
+#10) ¿Se puede mejorar el proceso del punto 9? Utilizar las sentencias break y/ó continue para tal fin
+#11) En los puntos 9 y 10, se diseño un código que encuentra números primos y además se lo optimizó. ¿Es posible saber en qué medida se optimizó?
+#12) Si la cantidad de números que se evalúa es mayor a treinta, esa optimización crece?
+#13) Aplicando continue, armar un ciclo while que solo imprima los valores divisibles por 12, dentro del rango de números de 100 a 300
+min=100
+max=300
+cont=1
+i=1
+while(cont<=12):
+    for i in range(min,max):
+        min=min+1
+        if (min%12==0):
+            cont=cont+1
+            print(min)
+            continue
+        else:
+            break
+#15) Crear un ciclo while que encuentre dentro del rango de 100 a 300 el primer número divisible por 3 y además múltiplo de 6
+min=100
+max=300
+cont=1
+i=1
+while(cont<=1):
+    for i in range(min,max):
+        min=min+1
+        if (min%6==0)&(min%3==0):
+            cont=cont+1
+            print(min)
+            continue
+        else:
+            break
